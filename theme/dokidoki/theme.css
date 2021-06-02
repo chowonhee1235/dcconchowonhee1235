@@ -4,19 +4,19 @@
  licensed under MIT license
  based on 'mario' theme
 */
-@import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url(https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFBold.ttf);
 
 @font-face {
-  font-family: 'MaplestoryOTFBold';
+  font-family: 'Maplestory Bold';
   font-style: regular;
   font-weight: 400;
-  src: local('나눔스퀘어'), url('../_shared/fonts/nanumsq.ttf');
+  src: local('Maplestory'), url('../_shared/fonts/Maplestory Bold.ttf');
 }
 @font-face {
-  font-family: 'eorine';
+  font-family: 'Maplestory Bold';
   font-style: regular;
   font-weight: 700;
-  src: local('a어린이M'), url('../_shared/fonts/eorine.ttf');
+  src: local('Maplestory'), url('../_shared/fonts/Maplestory Bold.ttf');
 }
 
 * {
@@ -51,7 +51,7 @@ body {
   display: flex;
 
   font-weight: 700;
-  font-family: eorine, 'Noto Sans KR', sans-serif;
+  font-family: eorine, 'Maplestory Bold', sans-serif;
 }
 .chat_nickname_box {
   min-width: 10rem;
@@ -106,7 +106,7 @@ body {
   border: 0.15rem solid rgba(255, 223, 238, 0.9);
   color: #fff;
   font-weight: 400;
-  font-family: nanumsq, 'Noto Sans KR', sans-serif;
+  font-family: nanumsq, 'Maplestory Bold', sans-serif;
 
   overflow: hidden;
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.5);
